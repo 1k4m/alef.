@@ -1,0 +1,24 @@
+$theme: #fff;
+$blue: rgba(1, 167, 253, 1);
+$grey: rgba(17, 17, 17, 0.48);
+$grey-light: rgba(241, 241, 241, 1);
+$black: rgba(17, 17, 17, 1);
+
+
+
+:root {
+    --theme: #{$theme};
+    --blue: #{$blue};
+    --grey: #{$grey};
+    --grey-light: #{$grey-light};
+    --black: #{$black};
+    
+
+    // Размер шрифтов
+    --fz: 1.5rem;
+   
+    --rad: 0.6rem;
+    --shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.27);
+
+    --border: rgba(17, 17, 17, 0.1);
+}

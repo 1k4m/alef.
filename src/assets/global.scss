@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 0.7vw;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fz);
+    background: #fff;
+    line-height: 1.2;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.7rem;
+}
+
+input {
+    outline: none;
+    resize: none;
+    border: none;
+}
+
+button {
+    border: none;
+    border-radius: 0;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: var(--theme);
+    font-size: var(--fz);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 100px;
+    border: 2px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.7rem;
+}
+
+[v-cloak] {
+    display: none !important;
+}
+
+@media(max-width: 769px) {
+    html {
+        font-size: 1vw;
+    }
+}
+
+@media(max-width: 426px) {
+    html {
+        font-size: 1.8vw;
+    }
+}
+
+@media(max-width: 376px) {
+    html {
+        font-size: 2vw;
+    }
+}
